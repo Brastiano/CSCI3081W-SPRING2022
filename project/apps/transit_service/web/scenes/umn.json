@@ -1,0 +1,76 @@
+[
+    {
+        "command": "CreateEntity",
+      	"params": {
+      	    "type": "drone_s",
+            "name": "Small Drone",
+      	    "mesh": "assets/model/drone.glb",
+      	    "position": [498.292, 253.883, -228.623],
+      	    "scale": [0.075, 0.075, 0.075],
+      	    "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 30.0,
+            "radius": 1.0,
+      	    "start": 2.0,
+      	    "duration": 2.0,
+            "offset": [0, 0.6, 0]
+    	  }
+    },
+    {
+        "command": "CreateEntity",
+      	"params": {
+      	    "type": "drone_l",
+            "name": "Large Drone",
+      	    "mesh": "assets/model/drone.glb",
+      	    "position": [503.292, 253.883, -223.623],
+      	    "scale": [0.115, 0.115, 0.115],
+      	    "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 30.0,
+            "radius": 1.0,
+      	    "start": 2.0,
+      	    "duration": 2.0,
+            "offset": [0, 0.6, 0]
+    	  }
+    },
+    {
+      "command": "CreateEntity",
+      "params": {
+          "type": "ufo",
+          "name": "UFO",
+          "mesh": "assets/model/UFO.glb",
+          "position": [508.292, 253.883, -218.623],
+          "scale": [0.75, 0.75, 0.75],
+          "rotation": [0, 0, 0, 0],
+          "direction": [1,0,0],
+          "speed": 31.0,
+          "radius": 1.0,
+          "start": 2.0,
+          "duration": 2.0,
+          "offset": [0, 0.6, 0]
+      }
+    },
+    {
+        "command": "SetScene",
+        "params": {
+            "type": "scene",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "mesh": "assets/model/umn.obj",
+            "texture": "assets/texture/umn.png",
+            "position": [-1.5,-13,-1.5],
+            "scale": [0.05,0.05,0.05]
+        }
+    },
+    {
+        "command": "AddMesh",
+        "params": {
+            "type": "route",
+            "mesh": "assets/model/routes.obj",
+            "position": [-0.0,-12.5,-0.0],
+            "scale": [0.0705,0.05,0.0705],
+            "color": "0xff00e1"
+        }
+    }
+]
